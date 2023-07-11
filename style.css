@@ -107,6 +107,27 @@ section::before {
   font-size: 24px;
 }
 
+.contact {
+  padding-bottom: 128px;
+}
+
+.form-label {
+  font-weight: 700;
+}
+
+.contact::before {
+  content: "Contact";
+}
+
+.contact-form {
+  border: solid 1px black;
+  padding: 64px 32px;
+}
+
+.img-social {
+  width: 50px;
+}
+
 #work-1:hover::after {
   content: "Web project";
 }
